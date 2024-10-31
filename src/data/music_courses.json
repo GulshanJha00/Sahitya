@@ -1,45 +1,42 @@
-{
-"courses" :[
-    {
-      "id": "1",
-      "title": "Guitar Fundamentals",
-      "slug": "guitar-fundamentals",
-      "description": "Learn the basics of playing with our beginner-friendly guitar course.",
-      "price": 99.99,
-      "instructor": "John Doe",
-      "isFeatured": true,
-      "images": "/courses/guitar.jpg"
-    },
-    {
-      "id": "2",
-      "title": "Piano Essentials",
-      "slug": "piano-essentials",
-      "description": "Master the essentials of piano playing with techniques for beginners.",
-      "price": 89.99,
-      "instructor": "Emily Clarke",
-      "isFeatured": false,
-      "images": "/courses/piano.jpg"
-    },
-    {
-      "id": "3",
-      "title": "Vocal Training 101",
-      "slug": "vocal-training-101",
-      "description": "Develop your vocal strength and tone in this comprehensive vocal training course.",
-      "price": 79.99,
-      "instructor": "Chris Evans",
-      "isFeatured": true,
-      "images": "/courses/vocal.jpg"
-    },
-    {
-      "id": "4",
-      "title": "Music Production Basics",
-      "slug": "music-production-basics",
-      "description": "Dive into music production with an introduction to DAWs and sound engineering.",
-      "price": 109.99,
-      "instructor": "Sophia Lee",
-      "isFeatured": false,
-      "images": "/courses/production.jpg"
-    }
+[
+  {
+    "id": "1",
+    "title": "Guitar Fundamentals",
+    "slug": "guitar-fundamentals",
+    "description": "Learn the basics of playing with our beginner-friendly guitar course.",
+    "price": 99.99,
+    "instructor": "John Doe",
+    "isFeatured": true,
+    "images": "/courses/guitar.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Piano Essentials",
+    "slug": "piano-essentials",
+    "description": "Master the essentials of piano playing with techniques for beginners.",
+    "price": 89.99,
+    "instructor": "Emily Clarke",
+    "isFeatured": false,
+    "images": "/courses/piano.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Vocal Training 101",
+    "slug": "vocal-training-101",
+    "description": "Develop your vocal strength and tone in this comprehensive vocal training course.",
+    "price": 79.99,
+    "instructor": "Chris Evans",
+    "isFeatured": true,
+    "images": "/courses/vocal.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Music Production Basics",
+    "slug": "music-production-basics",
+    "description": "Dive into music production with an introduction to DAWs and sound engineering.",
+    "price": 109.99,
+    "instructor": "Sophia Lee",
+    "isFeatured": false,
+    "images": "/courses/production.jpg"
+  }
 ]
-}
-  

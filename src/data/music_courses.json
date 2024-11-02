@@ -38,5 +38,115 @@
     "instructor": "Sophia Lee",
     "isFeatured": false,
     "images": "/courses/production.jpg"
+  },
+  {
+    "id": "5",
+    "title": "Advanced Guitar Techniques",
+    "slug": "advanced-guitar-techniques",
+    "description": "Take your guitar skills to the next level with advanced strumming and fingerstyle techniques.",
+    "price": 149.99,
+    "instructor": "James Taylor",
+    "isFeatured": true,
+    "images": "/courses/advanced-guitar.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Classical Piano Mastery",
+    "slug": "classical-piano-mastery",
+    "description": "Learn the art of classical piano with advanced techniques and compositions.",
+    "price": 199.99,
+    "instructor": "Alice Kim",
+    "isFeatured": false,
+    "images": "/courses/classical-piano.jpg"
+  },
+  {
+    "id": "7",
+    "title": "Jazz Theory and Improvisation",
+    "slug": "jazz-theory-improvisation",
+    "description": "Understand jazz theory and learn to improvise with confidence.",
+    "price": 129.99,
+    "instructor": "Miles Carter",
+    "isFeatured": true,
+    "images": "/courses/jazz-theory.jpg"
+  },
+  {
+    "id": "8",
+    "title": "Electronic Music Production",
+    "slug": "electronic-music-production",
+    "description": "Produce electronic music using the latest digital audio workstations and techniques.",
+    "price": 139.99,
+    "instructor": "Mia Chen",
+    "isFeatured": false,
+    "images": "/courses/electronic-production.jpg"
+  },
+  {
+    "id": "9",
+    "title": "Songwriting for Beginners",
+    "slug": "songwriting-for-beginners",
+    "description": "Learn the basics of songwriting, from lyrics to melody and structure.",
+    "price": 69.99,
+    "instructor": "Tommy Lee",
+    "isFeatured": true,
+    "images": "/courses/songwriting.jpg"
+  },
+  {
+    "id": "10",
+    "title": "Drumming Basics",
+    "slug": "drumming-basics",
+    "description": "Start drumming with this beginner course covering rhythm, patterns, and technique.",
+    "price": 79.99,
+    "instructor": "Jack White",
+    "isFeatured": false,
+    "images": "/courses/drumming.jpg"
+  },
+  {
+    "id": "11",
+    "title": "Orchestration and Arranging",
+    "slug": "orchestration-arranging",
+    "description": "Learn to arrange and orchestrate music for ensembles and orchestras.",
+    "price": 189.99,
+    "instructor": "Julia Robertson",
+    "isFeatured": true,
+    "images": "/courses/orchestration.jpg"
+  },
+  {
+    "id": "12",
+    "title": "Music Theory for Beginners",
+    "slug": "music-theory-beginners",
+    "description": "Get a solid foundation in music theory with this course for beginners.",
+    "price": 49.99,
+    "instructor": "Carlos Diaz",
+    "isFeatured": false,
+    "images": "/courses/music-theory.jpg"
+  },
+  {
+    "id": "13",
+    "title": "Advanced Mixing Techniques",
+    "slug": "advanced-mixing-techniques",
+    "description": "Master mixing techniques for professional-quality sound in your productions.",
+    "price": 159.99,
+    "instructor": "Lisa Brown",
+    "isFeatured": true,
+    "images": "/courses/mixing.jpg"
+  },
+  {
+    "id": "14",
+    "title": "Hip-Hop Beat Making",
+    "slug": "hip-hop-beat-making",
+    "description": "Learn to create catchy hip-hop beats using samples, loops, and drum machines.",
+    "price": 119.99,
+    "instructor": "DJ Khalid",
+    "isFeatured": false,
+    "images": "/courses/beat-making.jpg"
+  },
+  {
+    "id": "15",
+    "title": "Opera Singing Techniques",
+    "slug": "opera-singing-techniques",
+    "description": "Develop your operatic vocal techniques with advanced breathing and projection exercises.",
+    "price": 179.99,
+    "instructor": "Maria Callas",
+    "isFeatured": true,
+    "images": "/courses/opera-singing.jpg"
   }
 ]

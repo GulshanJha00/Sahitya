@@ -18,6 +18,10 @@
     "simplex-noise": "^4.0.3",
     "tailwind-merge": "^2.5.4"
   },
+  "engines": {
+  "node": ">=14.0.0",
+  "npm": ">=6.0.0"
+},
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",

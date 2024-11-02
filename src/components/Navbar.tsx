@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import musicData from "../data/music_courses.json"
 
 function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
@@ -18,18 +17,49 @@ function Navbar({ className }: { className?: string }) {
         </Link>
      
 
+      
         <MenuItem setActive={setActive} active={active} item="Courses">
-          <div className="flex flex-col space-y-4 text-sm">
+          <div className="flex flex-col space-y-4 text-sm mt-4">
             {
-              musicData.map((course) => (
-                <HoveredLink key={course.id} href={`/courses`}>
-                  {course.title}
+              
+                <HoveredLink href={`/courses`}>
+                  <h1>All Courses</h1>
                 </HoveredLink>
-              ))
+            } 
+          </div>
+
+          <div className="flex flex-col space-y-4 text-sm mt-4">
+            {
+              
+              <HoveredLink href={`/courses`}>
+                  <h1>Basic music theory</h1>
+                </HoveredLink>
+            }
+              
+          </div>
+
+          <div className="flex flex-col space-y-4 text-sm mt-4">
+            {
+              
+              <HoveredLink href={`/courses`}>
+                  <h1>Advance Composition</h1>
+                </HoveredLink>
+            }
+              
+          </div>
+
+          <div className="flex flex-col space-y-4 text-sm mt-4">
+            {
+              
+              <HoveredLink href={`/courses`}>
+                  <h1>Song Writing</h1>
+                </HoveredLink>
             }
               
           </div>
         </MenuItem>
+
+
         <Link href="/contact">
           <MenuItem setActive={setActive} active={active} item="Contact Us">
           </MenuItem>
